@@ -1,0 +1,192 @@
+@font-face {
+  src: url("../fonts/yosef.ttf");
+    font-family:my;
+}
+@font-face {
+  src: url("../fonts/yosefen.ttf");
+    font-family:myy;
+}
+body
+{
+
+    background-image: url(../image/elec_devies.jpg);
+    padding: 0px;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-attachment: fixed; 
+}
+.continar 
+{
+    margin: auto;
+    width: 100%;     
+}
+.signin 
+{
+    box-shadow: 10px 10px 44px 1px black; box-shadow: 10px 10px 44px 1px black;
+    border-radius: 10%;
+    background-color: #122034;
+    opacity: 0.9;
+    padding: 20px;
+    max-width: 80%;
+        width: 90%;
+    height: 90%;
+    max-height: 91%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .2s ease-in-out;
+    overflow-y: scroll;
+    
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+   
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ 
+  border-radius: 10px;
+    opacity: 0.1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: skyblue; 
+  border-radius: 10px;
+    opacity: 0.4;
+}
+
+/*
+select
+{
+   display: block;
+    width: 400px;
+    height: 50px;
+    background: rgba(11,44,1,0.1);
+    outline: none;
+    border: 1px solid skyblue;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: myy;
+    color:white;
+    text-align: center;
+    border-radius: 5%;
+     transition: all .2s ease-in-out;  
+}
+*/
+scroll
+{
+    color: brown;
+}
+.signin ul li
+{
+    
+    background-attachment: fixed;
+    position:relative;
+    list-style: none;
+      box-shadow: 1px 3px 1px  hsl(0, 0%, 90%);
+    float: right;
+     padding: 13px;
+     border: 2px solid #122034 ;
+     border-radius: 20%;
+     margin: 6px;
+    transition: all .2s ease-in-out;
+}
+label
+{
+    font-family: myy;
+    font-size: 18px;
+    text-align: center;
+    color: aliceblue;
+}
+
+input ,select
+{
+    display: block;
+    width: 400px;
+    height: 40px;
+    background: rgba(11,44,1,0.3);
+    outline: none;
+    border: 1px solid skyblue;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: myy;
+    color:white;
+    text-align: center;
+     border-left-color: skyblue;
+    border-radius: 5%;
+     transition: all .2s ease-in-out;   
+}
+.signin:hover
+{
+    box-shadow: 10px 10px 44px 1px skyblue; 
+}
+input:hover
+{
+   box-shadow: 10px 10px 44px 1px white; 
+}
+select:hover
+{
+    box-shadow: 10px 10px 44px 1px white; 
+}
+button
+{
+    font-weight: lighter;
+    border-radius: 5%;
+     width: 420px;
+    height: 40px;
+    font-size: 16px;
+    font-size: 18px;
+    background: skyblue;
+    opacity: 0.7;
+    font-weight: lighter;
+    color: #fff;
+    border: 0px;
+    font-family: myy;
+     transition: all .2s ease-in-out;
+}
+button:hover
+{
+         box-shadow: 10px 10px 44px 1px white;
+}
+h2
+{
+    width: 20%;
+    height: 25%;
+     box-shadow: 10px 10px 44px 1px black; box-shadow: 10px 10px 44px 1px black;
+    font-family:myy;
+    color:#fff;
+    padding: 2px;
+    font-size: 27px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 10%;
+    opacity: 0.8;
+    font-weight: bold;
+     transition: all .2s ease-in-out;
+}
+h2:hover
+{
+     color: navajowhite;
+    box-shadow: 10px 10px 44px 1px white;
+}
+img
+{
+    transition: all .2s ease-in-out;
+}
+img:hover
+{
+    transform: scale(1.1,1.1);
+        box-shadow: 1px 1px 4px  white;
+    opacity: 0.7;
+}

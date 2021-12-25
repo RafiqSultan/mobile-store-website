@@ -1,0 +1,15 @@
+a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+ul li:hover
+{
+   
+    transform: scale(1.1,1.1);
+}
+a:hover
+{
+  color:cadetblue;
+    transform: scale(1.1,1.1);
+}

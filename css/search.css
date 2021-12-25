@@ -1,0 +1,117 @@
+@font-face {
+ 
+  src: url("../fonts/yosef.ttf");
+    font-family:my;
+}
+body
+{
+padding: 0px;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.continar
+{
+
+margin: auto;
+    width: 100%;     
+}
+.yy button
+{
+    position: absolute;
+    top:50%;
+    left: 34%;
+    font-weight: lighter;
+    border-radius: 5%;
+    width: 333px;
+    height: 50px;
+    font-size: 22px;
+    background: skyblue;
+    font-weight: lighter;
+    color: rgb(100, 86, 86);
+    font-weight: 300;
+    border: 0px;
+    font-family: my;
+    transition: all .2s ease-in-out;
+    background-color: #5757ab82;
+}
+ button:hover
+{
+    color: cadetblue;
+}
+.yy
+{
+    
+   width: 80%;
+    height: 50%;
+    border-radius: 5px;
+    padding: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border:1px solid white;
+    text-align: center;
+    box-shadow: 10px 10px 44px 1px black;
+    border-radius:10%;
+    background-color: #5757ab82;
+}
+
+header  h2
+{
+    text-align: center;
+     font-weight: lighter;
+font-family:my;
+    padding: 0px;
+    font-size: 30px;
+opacity: 1;
+    margin: 7px;
+    transition: all .2s ;
+     
+}
+header  h2:hover
+{
+    color: aqua;
+ transition: all .2s ease-in-out;
+    transform: scale(1.2,1.2);
+    font-weight: lighter;
+}
+.yy input
+{
+ 
+    background-image: url(search-icon-755318-9906097.png);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 1000px;
+    height: 50px;
+    outline: none;
+    border: 1px solid white;
+    font-weight: lighter;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: my;
+    color:black;
+    text-align: center;
+    border-radius: 6%;
+     transition: all .2s ease-in-out;
+    font-family: my;
+    padding: 0px;
+}
+.yy img
+{
+    
+}
+img
+{
+    transition: all .2s ease-in-out;
+}
+img:hover
+{
+    transform: scale(1.1,1.1);
+        box-shadow: 1px 1px 4px  white;
+    opacity: 0.7;
+}

@@ -1,0 +1,39 @@
+p
+{
+    -webkit-text-stroke:1px gray;
+    color: aliceblue;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30pt;
+    position: relative;
+    animation: yosef linear 5s 2 0s alternate;
+}
+@keyframes yosef
+{
+    0%{top: 1%;}
+    5%{top: 5%;}
+    10%{top: 10%;}
+    15%{top: 15%;}
+    20%{top: 20%;}
+    25%{top: 25%;}
+    30%{top: 30%;}
+    35%{top: 35%;}
+    40%{top: 40%;}
+    45%{top: 45%;}
+    50%{top: 50%;}
+    55%{top: 55%;}
+    60%{top: 60%;}
+    65%{top: 65%;}
+    70%{top: 70%;}
+    75%{top: 75%;}
+    80%{top: 80%;}
+    85%{top: 85%;}
+    90%{top: 90%;}
+    95%{top: 95%;}
+    100%{top: 100%;}
+
+}
+.signin 
+{
+    overflow: hidden;
+}

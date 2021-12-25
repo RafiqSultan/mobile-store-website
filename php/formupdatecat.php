@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet"  href="../css/insertcompany.css">
+    <meta charset="utf-8">
+    <title> Mobile STORE</title>
+<link rel="icon" href="logo.png">
+    </head>
+<body style="background-image: url(../image/mobile_store.jpg); ">
+           <div class="bb">
+    <a href="../html/updateshow.html"><img  src="../img/backk.png" title="BACK TO THE MAIN MENUE" ></a>
+    </div>
+    <div class="signin">
+        <h2>UPDATE CATGORY </h2>
+        <form action="" method="post">
+         <input type="text" placeholder="ENTER THE ID OF CATGORY " name="cat_id" >   
+    <input type="text" placeholder="ENTER THE NAME OF CATGORY " name="namecatgory" >
+<button type="submit" name="update">Update</button>
+   
+        </form>
+         </div>
+        </body >
+
+
+</html>
+
+
+
+<!--
+<?php
+include("connect.php");
+ 
+ if( isset($_POST['cat_id']))
+         {
+            $id=$_POST['cat_id'];
+           
+            $qq=mysqli_query($connect,"UPDATE `category`  SET category_name='$_POST[namecatgory]' WHERE category_number='$id'");
+             if(!$qq)
+                 echo "<h2>".'errr'."</h2>";
+             else
+             {
+                 echo "ok";
+                 header("location:../php/selectcategory.php");
+                 exit;
+                 
+             }
+         }
+    
+    mysqli_close($connect);
+    ?>-->

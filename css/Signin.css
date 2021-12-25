@@ -1,0 +1,134 @@
+
+@font-face {
+ 
+  src: url("../fonts/");
+    font-family: my;
+}
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+   /*background-color:rgb(64, 32, 64);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.signin
+{
+    /* background: #680d0d; */
+    border-radius: 5px;
+    padding: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border:1px solid white;
+    text-align: center;
+    box-shadow: 10px 10px 44px 1px black;
+    border-radius:10%;
+    background-color:#680d0d ;
+    
+}
+h2
+{
+    font-family:my;
+    color:#fff;
+    font-size: 50px;
+    text-align: center;
+      box-shadow: 10px 10px 44px 1px black;
+    border-radius: 10%;
+    opacity: 0.8;
+    font-weight: bold;
+     transition: all .2s ease-in-out;
+}
+.signin img
+{
+    
+     box-shadow: 10px 10px 44px 1px white;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    transition: all 30s ease-in-out;
+}
+input:hover
+{
+   box-shadow: 10px 10px 44px 1px white; 
+}
+select:hover
+{
+    box-shadow: 10px 10px 44px 1px white; 
+}
+input
+{
+    display: block;
+    width: 320px;
+    height: 50px;
+    background: rgba(11,44,1,0.1);
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.5);
+    font-weight: lighter;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: my;
+    color:white;
+    text-align: center;
+    border-radius: 5%;
+     transition: all .2s ease-in-out;
+    
+}
+button:hover
+{
+         box-shadow: 10px 10px 44px 1px white;
+}
+button
+{
+    font-weight: lighter;
+    border-radius: 5%;
+    width: 333px;
+height: 50px;
+    font-size: 16px;
+    background: skyblue;
+    font-weight: lighter;
+    color: rgb(43, 16, 16);
+    font-weight: 300;
+    border: 0px;
+    font-family: my;
+     transition: all .2s ease-in-out;
+}
+.button:hover
+{
+    color: cadetblue;
+}
+input:hover
+{
+    color: rgb(37, 28, 13);
+    box-shadow: 10px 10px 44px 1px white;
+}
+placeholder
+{
+    color: red;
+}
+.signin img:hover
+{
+    opacity: 1;
+    
+}
+h2:hover
+{
+     color: navajowhite;
+    box-shadow: 10px 10px 44px 1px white;
+}
+a
+{
+    text-decoration: none;
+    font-family:my;
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10%;
+    opacity: 0.7;
+     transition: all .2s ease-in-out;
+}
